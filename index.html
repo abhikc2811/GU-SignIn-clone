@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome - Gu Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+
+  </head>
+  <body>
+    <div id="main">
+      <div id="web">
+        <p>A futuristic Solution for</p>
+        <h1>Educational Institutions</h1>
+        <img src="https://gu.aimserp.co.in/aims-authactionhook/images/group-2.svg" alt="img">
+      </div>
+      
+      <div id="form">
+        <fieldset style="border: none">
+          <img src="https://gu.aimserp.co.in/documents/109739/126654/company-logo/0133773f-1831-4b8a-b305-70c8842f042c?t=1709466390941" alt="logo">
+          <form action="" class="form sign-in-form " id="_58_fm" method="post" name="_58_fm" autocomplete="on"> 
+          <label for="username">Username</label> <br>
+          <input type="text" id="username" placeholder="Username / URN" size="40"> <br>
+          <label for="password">Password</label> <br>
+          <input type="password" id="password" placeholder="Password / DOB(ddmmyyyy)" size="40">
+
+          <div id="captchaBox" style="margin-top: 1.5rem;">
+            <span id="captchaText"></span>
+            <input type="text" id="captchaInput" placeholder="Enter Captcha">
+            <button onclick="refreshCaptcha(event)"><img src="refresh.jpg" alt="refresh" width="10px"></button>
+          </div>
+
+          <div class="button"> 
+            <button class="btn" type="submit"> Sign In </button> 
+            <br><br>
+            <a href="https://gu.aimserp.co.in/web/registration/forgot-password">Forgot Password?</a> 
+          </div> 
+        </form>
+        </fieldset>
+      </div>
+    </div>
+    
+  </body>
+
+</html>
