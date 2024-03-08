@@ -1,9 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;  
+
 body {
   background-image: url("background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width: 100vh;
+  width: 100vw;
 }
 
 p {
@@ -22,14 +26,14 @@ h1 {
 
 #web {
   float: left;
-  margin-top: 1%;
-  margin-left: 12%;
+  margin-top: 3%;
+  margin-left: 9%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #form {
   float: right;
-  margin-left: 18%;
+  margin-left: 16%;
   margin-top: 2%;
   line-height: 1.8;
   text-align: center;
